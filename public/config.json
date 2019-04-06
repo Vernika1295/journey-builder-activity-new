@@ -30,26 +30,30 @@
           "header": "{'Content-Type':'application/json'}",
           "format": "json",
           "useJwt": true,
+          "customerKey": "abzWLPd_ZtfVdMOB9krfOTFlg7bWOj23XKKnxIxy0zHvylrYEgciT27llJDHcnGDhembfSHoXxLM_g887uslusaA-bdjNcrG1aF64V_CENUqUUXhBNgUXHR6nP9h87ffnikLE5UC5GiV-OEDGVz4nbaYG1r3ph3EXOVUghVlTRiWcPW0kxpnXT-WK-ZArZ0o7f9Ii9T18rdA_95LaoOcdzpugF45JWtn7Cp7V4MGhTiIQAgJSczQOLsfniGz8A2",
           "timeout": 10000
       }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "1fe3225a-6169-4c74-8a4a-061165d868eb",
+    "applicationExtensionKey": "1d35b6fa-e5d8-4fc5-970e-68176fe47cf9",
     "save": {
       "url": "https://pushnotifyapp.herokuapp.com/journeybuilder/save",
         "verb": "POST",
-      "useJwt": false
+      "useJwt": true,
+      "customerKey": "abzWLPd_ZtfVdMOB9krfOTFlg7bWOj23XKKnxIxy0zHvylrYEgciT27llJDHcnGDhembfSHoXxLM_g887uslusaA-bdjNcrG1aF64V_CENUqUUXhBNgUXHR6nP9h87ffnikLE5UC5GiV-OEDGVz4nbaYG1r3ph3EXOVUghVlTRiWcPW0kxpnXT-WK-ZArZ0o7f9Ii9T18rdA_95LaoOcdzpugF45JWtn7Cp7V4MGhTiIQAgJSczQOLsfniGz8A2"
      },
      "publish": {
       "url": "https://pushnotifyapp.herokuapp.com/journeybuilder/publish",
       "verb": "POST",
-      "useJwt": false
+      "useJwt": true,
+      "customerKey": "abzWLPd_ZtfVdMOB9krfOTFlg7bWOj23XKKnxIxy0zHvylrYEgciT27llJDHcnGDhembfSHoXxLM_g887uslusaA-bdjNcrG1aF64V_CENUqUUXhBNgUXHR6nP9h87ffnikLE5UC5GiV-OEDGVz4nbaYG1r3ph3EXOVUghVlTRiWcPW0kxpnXT-WK-ZArZ0o7f9Ii9T18rdA_95LaoOcdzpugF45JWtn7Cp7V4MGhTiIQAgJSczQOLsfniGz8A2"
      },
     "validate": {
       "url": "https://pushnotifyapp.herokuapp.com/journeybuilder/validate",
       "verb": "POST",
       "body":"",
-      "useJwt": false
+      "useJwt": true,
+      "customerKey": "abzWLPd_ZtfVdMOB9krfOTFlg7bWOj23XKKnxIxy0zHvylrYEgciT27llJDHcnGDhembfSHoXxLM_g887uslusaA-bdjNcrG1aF64V_CENUqUUXhBNgUXHR6nP9h87ffnikLE5UC5GiV-OEDGVz4nbaYG1r3ph3EXOVUghVlTRiWcPW0kxpnXT-WK-ZArZ0o7f9Ii9T18rdA_95LaoOcdzpugF45JWtn7Cp7V4MGhTiIQAgJSczQOLsfniGz8A2"
     }
   },
   "wizardSteps": [
